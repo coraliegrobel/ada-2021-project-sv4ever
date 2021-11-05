@@ -36,7 +36,9 @@ Do several research questions in case one does not turn into something interesti
 6    d
 ```
 
-## Proposed timelize *-> Zulip, 
+## Proposed timelize 
+
+-> Zulip
 
 
 ## Organization with the team
