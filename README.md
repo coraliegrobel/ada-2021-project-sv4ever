@@ -1,9 +1,13 @@
 # Project Milestone 2 (P2)
 
-## Abstract *150 words max*
+## Abstract 
+
+150 words max
 
 
-## Research questions *Do several research questions in case one does not turn into something interesting between professions (gender fixed)/genders (profession fixed)/... *
+## Research questions 
+
+Do several research questions in case one does not turn into something interesting between professions (gender fixed)/genders (profession fixed)/...
 
 
 ## Proposed additional datasets
