@@ -1,32 +1,22 @@
 # Project Milestone 2 (P2)
 
 ## Abstract 
-
 150 words max
+Quotebank
 
 
 ## Research questions 
-
 Do several research questions in case one does not turn into something interesting between professions (gender fixed)/genders (profession fixed)/...
 
 
 ## Proposed additional datasets
-
-### Quotebank
-
-...
-
+To complement the Quotebank dataset, we use the open source stored data on Wikidata.
 ### Wikidata
-
-...
-
-### Classifiers
-
 ...
 
 
 ## Methods
- The different method we used are:
+ The different method we used are: Classifiers
 ```bash
 1    s
 2    s
@@ -36,12 +26,15 @@ Do several research questions in case one does not turn into something interesti
 6    d
 ```
 
+
 ## Proposed timelize 
 
--> Zulip
+upcoming steps in milestone 3
 
 
 ## Organization with the team
+
+
 
 
 ## Questions for Tas (optional)
