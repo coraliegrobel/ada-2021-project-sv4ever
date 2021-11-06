@@ -4,9 +4,9 @@
 
 ...
 
-**150 words max**
+*150 words max*
 
-**Quotebank**
+*Explain Quotebank*
 
 
 ## Research questions 
