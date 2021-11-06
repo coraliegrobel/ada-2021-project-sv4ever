@@ -3,8 +3,8 @@
 ## Abstract 
 
 ...
-**150 words max
-**Quotebank
+**150 words max**
+**Quotebank**
 
 
 ## Research questions 
