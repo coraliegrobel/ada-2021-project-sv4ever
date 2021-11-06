@@ -3,18 +3,18 @@
 ## Abstract 
 
 ...
-*150 words max
-*Quotebank
+**150 words max
+**Quotebank
 
 
 ## Research questions 
 
 ...
-*Goals:
-*show that you have a reasonable plan and ideas for methods you’re going to use, giving their essential mathematical details in the notebook.
-*show that your plan for analysis and communication is reasonable and sound, potentially discussing alternatives to your choices that you considered but dropped.
-*Rem: 
-*Do several research questions in case one does not turn into something interesting between professions (gender fixed)/genders (profession fixed)/...
+**Goals:
+**show that you have a reasonable plan and ideas for methods you’re going to use, giving their essential mathematical details in the notebook.
+**show that your plan for analysis and communication is reasonable and sound, potentially discussing alternatives to your choices that you considered but dropped.
+**Rem: 
+**Do several research questions in case one does not turn into something interesting between professions (gender fixed)/genders (profession fixed)/...
 
 
 ## Proposed additional datasets
