@@ -26,11 +26,14 @@
 
 ## Proposed additional datasets
 To complement the Quotebank dataset, we use the open source stored data on Wikidata, as well as data to train a classifier on a public GitHub repository.
+
 ### Wikidata
 ...
+
 ### Uncertainty Detection Classifier
 ...
 It is available for download at: https://github.c-om/pajean/uncertaintyDetection.
+
 
 ## Methods
 
@@ -67,7 +70,7 @@ Upcoming steps in milestone 3:
 ## Questions for Tas (optional)
 
 
----------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------
 Brouillon:
 
 <object data="https://github.com/CS-433/ml-project-1-ccd_ml/blob/main/Machine_Learning_to_discover_Higgs_Boson.pdf" type="application/pdf" width="700px" height="700px">
