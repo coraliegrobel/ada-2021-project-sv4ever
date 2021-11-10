@@ -31,18 +31,16 @@ The data from wikidata and the adapted classifier can be found on this public dr
 
 ## Methods
 
-
-```bash
 1. Pre-processing of the data
-- Loading quotebank and wikidata
-- Exploratory Data Analysis (EDA)
-- Cleaning quotebank and wikidata
-- Merging quotebank and wikidata
+  - Loading quotebank and wikidata
+  - Exploratory Data Analysis (EDA)
+  - Cleaning quotebank and wikidata
+  - Merging quotebank and wikidata
 2. Creation of the lists of similar professions
 3. Classification of the quotes
 4. Statistical-analysis
 5. Interpretation of results & Conclusion
-```
+
 
 
 ## Proposed timelize 
