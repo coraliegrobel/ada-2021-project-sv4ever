@@ -1,105 +1,66 @@
-# Project Milestone 2 (P2)
+# ADA - Project Milestone 2: 
+# *Analysis of speech behaviours between genders*
 
 ## Abstract 
 
-...
-
-*150 words max*
-
-*Explain Quotebank*
-
+It is common knowledge that women’ speech contains more uncertainties (e.g., “We think this may be correct”) compared to men (e.g., “I know it is correct”). As a result, this project aims at comparing speech behaviors related to uncertainty between genders. As our data, we use quotes from Quotebank, an open corpus of more than 1 million of quotations from 2015 to 2020, as well as the open-source information from wikidata to have access to the speakers' information. The classification of the quotes is done using an uncertainty detection classifier, based on the statistical analysis of multiple lexical and syntactic features. Specifically, we analyze differences in communicative acts in relation to gender within and between professional areas. Furthermore, we emphasis on the roles of nationality, culture/tradition, and education in determining those differences. Finally, we also observe whether there is a possible change over time (from 2015 to 2020).![image](https://user-images.githubusercontent.com/44574856/141140799-e20da713-b5dc-4122-b0f4-a86cfdaa25c4.png)
 
 ## Research questions 
 
-...
+We are interested in using this dataset to answer the following question: Do speech behaviours related to confidence and uncertainty vary between men and women?
 
-*Goals:*
+To answer this question, we'll go through the following points:
 
-*show that you have a reasonable plan and ideas for methods you’re going to use, giving their essential mathematical details in the notebook.*
-
-*show that your plan for analysis and communication is reasonable and sound, potentially discussing alternatives to your choices that you considered but dropped.*
-
-*Rem:*
-
-*Do several research questions in case one does not turn into something interesting between professions (gender fixed)/genders (profession fixed)/...*
-
+```bash
+1. To what extent can we observe the differences in communicative acts in relation to gender within a professional area? Are there noticeable differences between those professional areas?
+2. What are the roles of nationality, culture/tradition (religion, ethnic groups), and education (whether the speaker obtained an academic degree) in determining those differences in speech between men and women? How are the lines drawn between the language we use and the environment around us?
+3. Has there been a possible change over time (from 2015 to 2020)?
+```
 
 ## Proposed additional datasets
-To complement the Quotebank dataset, we use the open source stored data on Wikidata, as well as data to train a classifier on a public GitHub repository.
+To complement the Quotebank dataset, we use the open source stored data on Wikidata, as well as a classifier.
 
 ### Wikidata
-...
+It is an open source dataset (https://www.wikidata.org/wiki/Wikidata:Main_Page).
 
 ### Uncertainty Detection Classifier
-...
-It is available for download at: https://github.c-om/pajean/uncertaintyDetection.
+To classify the quotes according to the uncertain lexical and syntactic features, we use the public uncertainty detection classifier from the paper "P. A. Jean, S. Harispe, S. Ranwez, P. Bellot, and J. Montmain, “Uncertainty detection in natural language: A probabilistic model” ACM Int. Conf. Proceeding Ser., vol. 13-15-June, no. June, 2016, doi: 10.1145/2912845.2912873". It is available for download at: https://github.c-om/pajean/uncertaintyDetection. As this was created on python2, we had to adapt it to run on python3.
+
+The data from wikidata and the adapted classifier can be found on this public drive: https://drive.google.com/drive/folders/1UgvnLUFhs14NDcZYH6NuZx2f_YC5i06N. More instructions are provided within the notebook.
 
 
 ## Methods
 
+
 ```bash
-0    Loading and merging of quotebank and wikidata
-1    Exploratory Data Analysis (EDA)
-2    Cleaning quotebank and wikidata
-3    Creation of subdataframes per professions
-4    Classification of quotes using the uncertainty detection classifier
-5    Statistical Analysis 
-6    Additional analysis
-7    Interpretation of results
-8    Conclusion
+1. Pre-processing of the data
+- Loading quotebank and wikidata
+- Exploratory Data Analysis (EDA)
+- Cleaning quotebank and wikidata
+- Merging quotebank and wikidata
+2. Creation of the lists of similar professions
+3. Classification of the quotes
+4. Statistical-analysis
+5. Interpretation of results & Conclusion
 ```
 
 
 ## Proposed timelize 
 
 Upcoming steps in milestone 3:
-- optimization of classsifier
+- optimization of the classsifier (increase the number of features)
 - analyse differences between professions
-- analyse a possible trend from 2015 to 2020
-- analyse differences between countries
+- analyse a possible change from 2015 to 2020
+- analyse the differences within/between nationality, culture/tradition, and/or education
 
 
 ## Organization with the team
 
-- Coralie Grobel: 0, 4
-- Assia Ouanaya: 3 
-- Clement Chaffard: 0, 1
-- Fannie Kerff: 4
+- Coralie Grobel: 1, 3
+- Assia Ouanaya: 2, 4
+- Clement Chaffard: 1
+- Fannie Kerff: 3, 4
 
 
 ## Questions for Tas (optional)
 
-
-----------------------------------------------------------------------------------------------------------------------------------
-Brouillon:
-
-<object data="https://github.com/CS-433/ml-project-1-ccd_ml/blob/main/Machine_Learning_to_discover_Higgs_Boson.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="https://github.com/CS-433/ml-project-1-ccd_ml/blob/main/Machine_Learning_to_discover_Higgs_Boson.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/CS-433/ml-project-1-ccd_ml/blob/main/Machine_Learning_to_discover_Higgs_Boson.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
-
-[Github](https://github.com/CS-433/ml-project-1-ccd_ml.git)
-
-1.You can download the code to run the models from the github repository 
-
-Clone the repository:
-```bash
-git clone https://github.com/CS-433/ml-project-1-ccd_ml.git
-```
-2.Unzip the train.csv in the data directory. Once in the right directory, type the following line:
-
-```bash
-Unzip train.zip
-```
-
-3.Unzip the test.csv in the data directory. Once in the right directory, type the following line:
-
-```bash
-Unzip test.zip
-```
-
-To run the program, you have to open a terminal on jupyter notebook or an anaconda prompt on anaconda. You have to go in the project repository (in the folder scripts) and run the following command :
-```bash
-python run.py
-```
