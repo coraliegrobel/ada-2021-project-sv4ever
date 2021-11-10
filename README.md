@@ -11,11 +11,9 @@ We are interested in using this dataset to answer the following question: Do spe
 
 To answer this question, we'll go through the following points:
 
-```bash
-1   To what extent can we observe the differences in communicative acts in relation to gender within a professional area? Are there noticeable differences between those professional areas?
-2   What are the roles of nationality, culture/tradition (religion, ethnic groups), and education (whether the speaker obtained an academic degree) in determining those differences in speech between men and women? How are the lines drawn between the language we use and the environment around us?
-3   Has there been a possible change over time (from 2015 to 2020)?
-```
+ Markup : 1. To what extent can we observe the differences in communicative acts in relation to gender within a professional area? Are there noticeable differences between those professional areas?
+          2. What are the roles of nationality, culture/tradition (religion, ethnic groups), and education (whether the speaker obtained an academic degree) in determining those differences in speech between men and women? How are the lines drawn between the language we use and the environment around us?
+          3. Has there been a possible change over time (from 2015 to 2020)?
 
 ## Proposed additional datasets
 To complement the Quotebank dataset, we use the open source stored data on Wikidata, as well as a classifier.
