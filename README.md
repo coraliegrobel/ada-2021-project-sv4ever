@@ -33,13 +33,18 @@ The data from wikidata and the adapted classifier can be found on this public dr
 
 1. Pre-processing of the data
   - Loading quotebank and wikidata
-  - Exploratory Data Analysis (EDA)
+  - Exploratory Data Analysis (EDA) of quotebank and wikidata
   - Cleaning quotebank and wikidata
   - Merging quotebank and wikidata
 2. Creation of the lists of similar professions
+  - Artists, scientists, economists, & politicians
 3. Classification of the quotes
+  - Uncertainty detection classifier
 4. Statistical-analysis
-5. Interpretation of results & Conclusion
+  - Professions (artists, scientists, economists, politicians)
+  - Environment (culture/religion, nationality, education)
+  - Time (2015-2020)
+6. Interpretation of results & Conclusion
 
 
 
