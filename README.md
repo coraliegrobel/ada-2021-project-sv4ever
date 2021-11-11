@@ -44,7 +44,7 @@ The data from wikidata and the adapted classifier can be found on this public dr
   - Professions (artists, scientists, economists, politicians)
   - Environment (culture/religion, nationality, education)
   - Time (2015-2020)
-6. Interpretation of results & Conclusion
+5. Interpretation of results & Conclusion
 
 
 
