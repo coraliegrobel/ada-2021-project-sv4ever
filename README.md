@@ -58,7 +58,7 @@ To extend our research on the question of gender speech uncertainty, we investig
 Finally, we investigated a possible change from 2015 to 2020, for each professional field.
 
 5. #### Interpretation of results & Conclusion
-
+We concluded on our observations and proposed further extensions on the project.
 
 ## Proposed timeline 
 
