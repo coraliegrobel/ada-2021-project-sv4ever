@@ -43,11 +43,11 @@ Then, we did some exploratory data analysis, at first on the distribution of gen
 
 (Artists, scientists, economists, & politicians) This allows us to be able to hold comparison between genders in the same category of profession. To achieve the separation, we searched for the speaker's occupation of each quote with the help of `wikidata`. Then hand-picked the professions to look for as strings and returned them in separate pickle files for each field.
 
-3. <ins> Classification of the quotes </ins>
+3. #### Classification of the quotes
 
 Uncertainty detection classifier
 
-4. <ins> Statistical-analysis </ins>
+4. #### Statistical-analysis
 
 We started by analysing the gender's distribution per each professional field (artists, scientists, economists, and politicians). As our speakers are mostly males, we had to normalize our uncertain speakers by the total number of speakers of each gender.
  
@@ -55,7 +55,7 @@ To extend our research on the question of gender speech uncertainty, we investig
 
 Finally, we investigated a possible change from 2015 to 2020, for each professional field.
 
-5. <ins> Interpretation of results & Conclusion </ins>
+5. #### Interpretation of results & Conclusion
 
 
 
