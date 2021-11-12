@@ -31,13 +31,13 @@ The data from wikidata and the adapted classifier can be found on this public dr
 
 ## Methods
 
-1. <ins> Pre-processing of the data </ins>
+1. #### Pre-processing of the data
 
 We started by cleaning the data. This was done by removing rows containing missing value on mandatory features for our study like the speaker's identity and gender. We also checked that there were no duplicate data (no duplicate quotes in quotebank and speaker id in wikidata). Additionally, only the quotes where the speaker's probability was greater than 0.5 in quotebank were kept.
   
 Then, we did some exploratory data analysis, at first on the distribution of genders and then on the language of the quotes. We observed a vast distribution of 31 genders. Still, to simplify our study, we only kept the "female" and "male" genders, the others representing less than 0.03% of the data. Concerning the language of the quotes, we found that some quotes are not in English. We will further investigate how to only keep the one in English in Milestone 3.
 
-2. <ins> Creation of the lists of similar professions </ins>
+2. #### Creation of the lists of similar professions
 
 (Merging quotebank and wikidata) To be able to avoid the bias of different backgrounds between male and female, we subdivided our data into 4 professional fields:
 
