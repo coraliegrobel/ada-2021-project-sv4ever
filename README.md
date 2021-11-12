@@ -47,7 +47,7 @@ In order to do that, we had to merge quotebank and wikidata. We merged on the â€
 
 3. #### Classification of the quotes
 
-Uncertainty detection classifier
+To be able to use the classifier, we first needed to create txt files with only the quotes and their index. Then, we ran the classifier on these files and it returned the uncertainty quotes for each files. More instructions are in the notebook to know how to run it.
 
 4. #### Statistical-analysis
 
@@ -75,7 +75,7 @@ Upcoming steps in milestone 3:
 
 All the members of the team worked on all "Method" steps. Still, these are the main steps that each team member worked on:
 
-- Coralie Grobel: 1, 3
+- Coralie Grobel: 1, 2, 3
 - Assia Ouanaya: 2, 4
 - Clement Chaffard: 1
 - Fannie Kerff: 3, 4
