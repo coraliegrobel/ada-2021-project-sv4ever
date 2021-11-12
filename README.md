@@ -31,7 +31,7 @@ The data from wikidata and the adapted classifier can be found on this public dr
 
 ## Methods
 
-1. Pre-processing of the data
+1. Pre-processing of the data  
   First, for the cleaning, we started our cleaning by removing rows containing missing value on mandatory features for our study like the speaker identity and gender. We also made sure that there were no duplicate data (no duplicate quotes in quotebank and speaker id in wikidata). We also kept only the quotes where the speaker probability was greater than 0.5 in quotebank. We thought that lower probabilities could interfere with our study.  
 Then, we did some exploratory data analysis, at first on the distribution of genders and then on the language of the quotes. We observed a vast distribution of genders that we decided to reduce to male and female only. The other genders represented less than 0.03% of the data and removing them would greatly simplify our study. Concerning the language of the quotes, we found that some quotes are not in English. We will further investigate how to only keep the one in English in Milestone 3 to help ensure that it didn’t become a bias in our study.  
 
