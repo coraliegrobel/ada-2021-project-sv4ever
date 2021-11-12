@@ -39,8 +39,7 @@ Then, we did some exploratory data analysis, at first on the distribution of gen
 
 2. #### Creation of the lists of similar professions
 
-To be able to avoid the bias of different backgrounds between males and females, we subdivided our data into 4 professional fields:
-  - Artists, scientists, economists, & politicians.  
+To be able to avoid the bias of different backgrounds between males and females, we sub-divided our data into 4 professional fields: artists, scientists, economists, and politicians.  
 
 In order to do that, we had to merge _Quotebank_ and _Wikidata_. We merged on the ‘label’ for _Wikidata_ and ‘speaker’ in _Quotebank_. Since speakers can have the same name, we had the condition that the id of the speaker, which is unique, should be the first one in the potential speaker for the quotes (‘Qids’). To achieve the separation, we searched for the speaker’s occupation of each quote with the help of _Wikidata_. Then hand-picked the professions to look for as strings and returned them in separate pickle files for each field. This allows us to be able to hold comparisons between genders in the same category of professions. 
 
