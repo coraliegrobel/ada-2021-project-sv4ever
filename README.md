@@ -75,7 +75,7 @@ Upcoming steps in milestone 3:
 
 All the members of the team worked on all "Method" steps. Still, these are the main steps that each team member worked on:
 
-- Coralie Grobel: 1, 3
+- Coralie Grobel: 1, 2, 3
 - Assia Ouanaya: 2, 4
 - Clement Chaffard: 1
 - Fannie Kerff: 3, 4
