@@ -40,12 +40,15 @@ The data from wikidata and the adapted classifier can be found on this public dr
   We also analyzed the language of the quotes in the quotebank dataset and found a minority of non-english quotes, they represent less than 1% of the data. We realized that identifying the language for millions of quotes was extremely time consuming. To help ensure that quotes language didn't become a bias in our study we selected quotes containing words in english, resulting in a much faster way to distinguish them at the cost of some imprecisions.
   - Merging quotebank and wikidata
 2. Creation of the lists of similar professions
-  - Artists, scientists, economists, & politicians
+To be able to avoid the bias of different backgrounds between male and female, we subdivided our data into 4 professional fields:
+  - Artists, scientists, economists, & politicians.
+This allows us to be able to hold comparison between genders in the same category of profession. To achieve the separation, we searched for the speker's occupation of each quote with the help of `wikidata`. Then hand-picked the professions to look for as strings and returned them in separate pickle files for each field.
 3. Classification of the quotes
   - Uncertainty detection classifier
 4. Statistical-analysis
   - Professions (artists, scientists, economists, politicians)
   - Environment (culture/religion, nationality, education)
+To extend our research on the question of gender speech uncertainety, we invetigated on how does culture and eduction shape the way men and women speak. We based this study on the `nationality`, `ethnic_group`, `religion` and `academic_degree` columns of the speaker. This allows each time to remove the bias of the cultural influence and to compare the gender speech.
   - Time (2015-2020)
 5. Interpretation of results & Conclusion
 
