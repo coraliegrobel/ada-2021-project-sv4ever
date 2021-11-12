@@ -39,24 +39,22 @@ Then, we did some exploratory data analysis, at first on the distribution of gen
 
 2. Creation of the lists of similar professions
 
-- Merging quotebank and wikidata  
-To be able to avoid the bias of different backgrounds between male and female, we subdivided our data into 4 professional fields:
+(Merging quotebank and wikidata) To be able to avoid the bias of different backgrounds between male and female, we subdivided our data into 4 professional fields:
 
-- Artists, scientists, economists, & politicians.
-This allows us to be able to hold comparison between genders in the same category of profession. To achieve the separation, we searched for the speaker's occupation of each quote with the help of `wikidata`. Then hand-picked the professions to look for as strings and returned them in separate pickle files for each field.
+(Artists, scientists, economists, & politicians) This allows us to be able to hold comparison between genders in the same category of profession. To achieve the separation, we searched for the speaker's occupation of each quote with the help of `wikidata`. Then hand-picked the professions to look for as strings and returned them in separate pickle files for each field.
 
 3. Classification of the quotes
-- Uncertainty detection classifier
+
+Uncertainty detection classifier
 
 4. Statistical-analysis
-- Analysis of the gender distribution between professions
-We started by analysing the gender's distribution per each professional field. As our speakers are mostly males, we had to normalize our uncertain speakers by the total number of speakers of each gender.
- 
-- Environment (culture/religion, nationality, education)
-To extend our research on the question of gender speech uncertainty, we invetigated on how does culture and eduction shape the way men and women speak. We based this study on the `nationality`, `ethnic_group`, `religion` and `academic_degree` columns of the speaker. This allows each time to remove the bias of the cultural influence and to compare the gender speech.
 
-- Time (2015-2020)
+We started by analysing the gender's distribution per each professional field (artists, scientists, economists, and politicians). As our speakers are mostly males, we had to normalize our uncertain speakers by the total number of speakers of each gender.
+ 
+To extend our research on the question of gender speech uncertainty, we investigated on how does culture and education shape the way men and women speak. We based this study on the `nationality`, `ethnic_group`, `religion` and `academic_degree` columns of the speaker. This allows each time to remove the bias of the cultural, educational and environmental influence and to compare the gender speech.
+
 Finally, we investigated a possible change from 2015 to 2020, for each professional field.
+
 
 5. Interpretation of results & Conclusion
 
