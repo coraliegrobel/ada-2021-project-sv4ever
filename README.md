@@ -32,14 +32,11 @@ The data from wikidata and the adapted classifier can be found on this public dr
 ## Methods
 
 1. Pre-processing of the data
-  - Loading quotebank and wikidata
-  - Cleaning quotebank and wikidata  
-  We started our cleaning by removing rows containing missing value on mandatory features for our study like the speaker identity and gender. We also made sure that there were no duplicate data (no duplicate quotes in quotebank and speaker id in wikidata). In quotebank, we kept only the quotes where the speaker probability was greater than 0.5. We thaught that lower probabilities could interfere with our study.
-  - Exploratory Data Analysis (EDA) of quotebank and wikidata  
-  We observed a vast distribution of genders that we decided to reduce to male and female only. The other genders represented less than 0.03% of the data and removing them would greately simplify our study.  
-  We also analyzed the language of the quotes in the quotebank dataset and found a minority of non-english quotes, they represent less than 1% of the data. We realized that identifying the language for millions of quotes was extremely time consuming. To help ensure that quotes language didn't become a bias in our study we selected quotes containing words in english, resulting in a much faster way to distinguish them at the cost of some imprecisions.
-  - Merging quotebank and wikidata  
+  First, for the cleaning, we started our cleaning by removing rows containing missing value on mandatory features for our study like the speaker identity and gender. We also made sure that there were no duplicate data (no duplicate quotes in quotebank and speaker id in wikidata). We also kept only the quotes where the speaker probability was greater than 0.5 in quotebank. We thought that lower probabilities could interfere with our study.  
+Then, we did some exploratory data analysis, at first on the distribution of genders and then on the language of the quotes. We observed a vast distribution of genders that we decided to reduce to male and female only. The other genders represented less than 0.03% of the data and removing them would greatly simplify our study. Concerning the language of the quotes, we found that some quotes are not in English. We will further investigate how to only keep the one in English in Milestone 3 to help ensure that it didn’t become a bias in our study.  
+
 2. Creation of the lists of similar professions
+- Merging quotebank and wikidata  
 To be able to avoid the bias of different backgrounds between male and female, we subdivided our data into 4 professional fields:
   - Artists, scientists, economists, & politicians.
 This allows us to be able to hold comparison between genders in the same category of profession. To achieve the separation, we searched for the speker's occupation of each quote with the help of `wikidata`. Then hand-picked the professions to look for as strings and returned them in separate pickle files for each field.
