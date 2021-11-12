@@ -20,10 +20,10 @@ To answer this question, we'll go through the following points:
 ## Proposed additional datasets
 To complement the Quotebank dataset, we use the open source stored data on Wikidata, as well as a classifier.
 
-### Wikidata
+#### Wikidata
 It is an open source dataset (https://www.wikidata.org/wiki/Wikidata:Main_Page).
 
-### Uncertainty Detection Classifier
+#### Uncertainty Detection Classifier
 To classify the quotes according to the uncertain lexical and syntactic features, we use the public uncertainty detection classifier from the paper "P. A. Jean, S. Harispe, S. Ranwez, P. Bellot, and J. Montmain, “Uncertainty detection in natural language: A probabilistic model” ACM Int. Conf. Proceeding Ser., vol. 13-15-June, no. June, 2016, doi: 10.1145/2912845.2912873". It is available for download at: https://github.c-om/pajean/uncertaintyDetection. As this was created on python2, we had to adapt it to run on python3.
 
 The data from wikidata and the adapted classifier can be found on this public drive: https://drive.google.com/drive/folders/1UgvnLUFhs14NDcZYH6NuZx2f_YC5i06N. More instructions are provided within the notebook.
