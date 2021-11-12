@@ -33,8 +33,11 @@ The data from wikidata and the adapted classifier can be found on this public dr
 
 1. Pre-processing of the data
   - Loading quotebank and wikidata
-  - Exploratory Data Analysis (EDA) of quotebank and wikidata
   - Cleaning quotebank and wikidata
+  We started our cleaning by removing rows containing missing value on mandatory features for our study like the speaker identity and gender. We also made sure that there were no duplicate data (no duplicate quotes in quotebank and speaker id in wikidata). In quotebank, we kept only the quotes where the speaker probability was greater than 0.5. We thaught that lower probabilities could interfere with our study.
+  - Exploratory Data Analysis (EDA) of quotebank and wikidata
+  We observed a vast distribution of genders that we decided to reduce to male and female only. The other genders represented less than 0.03% of the data and removing them would greately simplify our study. 
+  We also analyzed the language of the quotes in the quotebank dataset and found a minority of non-english quotes, they represent less than 1% of the data. We realized that identifying the language for millions of quotes was extremely time consuming. To help ensure that quotes language didn't become a bias in our study we selected quotes containing words in english, resulting in a much faster way to distinguish them at the cost of some imprecisions.
   - Merging quotebank and wikidata
 2. Creation of the lists of similar professions
   - Artists, scientists, economists, & politicians
