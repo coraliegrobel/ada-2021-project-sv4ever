@@ -68,6 +68,7 @@ Upcoming steps in milestone 3:
 - Analyse differences between professions using the 6 years' datasets
 - Analyse a possible cultural influence using the 6 years' datasets
 - Analyse a possible change from 2015 to 2020 (using the 6 years' datasets)
+- Hypothesis testing
 
 
 ## Organization with the team
