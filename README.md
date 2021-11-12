@@ -41,6 +41,7 @@ Then, we did some exploratory data analysis, at first on the distribution of gen
 
 To be able to avoid the bias of different backgrounds between male and female, we subdivided our data into 4 professional fields:
   - Artists, scientists, economists, & politicians.  
+
 In order to do that, we had to merge quotebank and wikidata. We merged on the ‘label’ for `wikidata` and ‘speaker’ in `quotebank`. Since speaker can have the same name, we had the condition that the id of the speaker, which is unique, should be the first one in the potential speaker for the quotes (‘Qids’). To achieve the separation, we searched for the speaker’s occupation of each quote with the help of `wikidata`. Then hand-picked the professions to look for as strings and returned them in separate pickle files for each field. This allows us to be able to hold comparison between genders in the same category of profession. 
 
 
