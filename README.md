@@ -32,21 +32,29 @@ The data from wikidata and the adapted classifier can be found on this public dr
 ## Methods
 
 1. Pre-processing of the data  
-  First, for the cleaning, we started our cleaning by removing rows containing missing value on mandatory features for our study like the speaker identity and gender. We also made sure that there were no duplicate data (no duplicate quotes in quotebank and speaker id in wikidata). We also kept only the quotes where the speaker probability was greater than 0.5 in quotebank. We thought that lower probabilities could interfere with our study.  
-Then, we did some exploratory data analysis, at first on the distribution of genders and then on the language of the quotes. We observed a vast distribution of genders that we decided to reduce to male and female only. The other genders represented less than 0.03% of the data and removing them would greatly simplify our study. Concerning the language of the quotes, we found that some quotes are not in English. We will further investigate how to only keep the one in English in Milestone 3 to help ensure that it didn’t become a bias in our study.  
+  First, we did some pre-processing. 
+  We started our cleaning by removing rows containing missing value on mandatory features for our study like the speaker's identity and gender. We also checked that there were no duplicate data (no duplicate quotes in quotebank and speaker id in wikidata). Additionally, only the quotes where the speaker's probability was greater than 0.5 in quotebank were kept.
+  Then, we did some exploratory data analysis, at first on the distribution of genders and then on the language of the quotes. We observed a vast distribution of 31 genders. Still, to simplify our study, we only kept the "female" and "male" genders, the others representing less than 0.03% of the data. Concerning the language of the quotes, we found that some quotes are not in English. We will further investigate how to only keep the one in English in Milestone 3.
 
 2. Creation of the lists of similar professions
 - Merging quotebank and wikidata  
 To be able to avoid the bias of different backgrounds between male and female, we subdivided our data into 4 professional fields:
   - Artists, scientists, economists, & politicians.
-This allows us to be able to hold comparison between genders in the same category of profession. To achieve the separation, we searched for the speker's occupation of each quote with the help of `wikidata`. Then hand-picked the professions to look for as strings and returned them in separate pickle files for each field.
+This allows us to be able to hold comparison between genders in the same category of profession. To achieve the separation, we searched for the speaker's occupation of each quote with the help of `wikidata`. Then hand-picked the professions to look for as strings and returned them in separate pickle files for each field.
+
 3. Classification of the quotes
   - Uncertainty detection classifier
+
 4. Statistical-analysis
-  - Professions (artists, scientists, economists, politicians)
+  - Analysis of the gender distribution between professions
+ We started by analysing the gender's distribution per each professional field. As our speakers are mostly males, we had to normalize our uncertain speakers by the total number of speakers of each gender.
+ 
   - Environment (culture/religion, nationality, education)
-To extend our research on the question of gender speech uncertainety, we invetigated on how does culture and eduction shape the way men and women speak. We based this study on the `nationality`, `ethnic_group`, `religion` and `academic_degree` columns of the speaker. This allows each time to remove the bias of the cultural influence and to compare the gender speech.
+To extend our research on the question of gender speech uncertainty, we invetigated on how does culture and eduction shape the way men and women speak. We based this study on the `nationality`, `ethnic_group`, `religion` and `academic_degree` columns of the speaker. This allows each time to remove the bias of the cultural influence and to compare the gender speech.
+
   - Time (2015-2020)
+ Finally, we investigated a possible change from 2015 to 2020, for each professional field.
+
 5. Interpretation of results & Conclusion
 
 
@@ -54,19 +62,19 @@ To extend our research on the question of gender speech uncertainety, we invetig
 ## Proposed timelize 
 
 Upcoming steps in milestone 3:
-- optimization of the classsifier (increase the number of features)
-- analyse differences between professions
-- analyse a possible change from 2015 to 2020
-- analyse the differences within/between nationality, culture/tradition, and/or education
+- Remove non-English quotations
+- Optimization of the classifier (increase the number of features)
+- Analyse differences between professions using the 6 years' datasets
+- Analyse a possible cultural influence using the 6 years' datasets
+- Analyse a possible change from 2015 to 2020 (using the 6 years' datasets)
 
 
 ## Organization with the team
+
+All the members of the team worked all all "Method" steps. Still, these are the main steps that each time member worked on:
 
 - Coralie Grobel: 1, 3
 - Assia Ouanaya: 2, 4
 - Clement Chaffard: 1
 - Fannie Kerff: 3, 4
-
-
-## Questions for Tas (optional)
 
