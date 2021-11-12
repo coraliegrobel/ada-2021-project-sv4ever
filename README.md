@@ -71,7 +71,7 @@ Upcoming steps in milestone 3:
 
 ## Organization with the team
 
-All the members of the team worked all all "Method" steps. Still, these are the main steps that each time member worked on:
+All the members of the team worked on all "Method" steps. Still, these are the main steps that each team member worked on:
 
 - Coralie Grobel: 1, 3
 - Assia Ouanaya: 2, 4
