@@ -37,17 +37,17 @@ We started by cleaning the data. This was done by removing rows containing missi
   
 Then, we did some exploratory data analysis, at first on the distribution of genders and then on the language of the quotes. We observed a vast distribution of 31 genders. Still, to simplify our study, we only kept the "female" and "male" genders, the others representing less than 0.03% of the data. Concerning the language of the quotes, we found that some quotes are not in English. We will further investigate how to only keep the one in English in Milestone 3.
 
-2. Creation of the lists of similar professions
+2. <ins> Creation of the lists of similar professions </ins>
 
 (Merging quotebank and wikidata) To be able to avoid the bias of different backgrounds between male and female, we subdivided our data into 4 professional fields:
 
 (Artists, scientists, economists, & politicians) This allows us to be able to hold comparison between genders in the same category of profession. To achieve the separation, we searched for the speaker's occupation of each quote with the help of `wikidata`. Then hand-picked the professions to look for as strings and returned them in separate pickle files for each field.
 
-3. Classification of the quotes
+3. <ins> Classification of the quotes </ins>
 
 Uncertainty detection classifier
 
-4. Statistical-analysis
+4. <ins> Statistical-analysis </ins>
 
 We started by analysing the gender's distribution per each professional field (artists, scientists, economists, and politicians). As our speakers are mostly males, we had to normalize our uncertain speakers by the total number of speakers of each gender.
  
@@ -55,8 +55,7 @@ To extend our research on the question of gender speech uncertainty, we investig
 
 Finally, we investigated a possible change from 2015 to 2020, for each professional field.
 
-
-5. Interpretation of results & Conclusion
+5. <ins> Interpretation of results & Conclusion </ins>
 
 
 
