@@ -130,7 +130,7 @@ def build_features(sentences, train, dico_lemm, dico_bigram, dico_trigram, dico_
 	# 3 : binomial law
 	# 4 : sigmoide
 	# 5 : NULL
-	
+	print(bioscope)
 	if bioscope == 1:
 		training_file = "Data/BioScope/bioscope_train.txt"
 	elif bioscope == 0:
@@ -301,7 +301,7 @@ def build_features(sentences, train, dico_lemm, dico_bigram, dico_trigram, dico_
 	
 		if train == 1:
 			label = check_uncertainty_sentence(phrase)
-	
+
 		for i_mot in range(len(phrase)):
 			
 				
@@ -577,6 +577,7 @@ def build_features(sentences, train, dico_lemm, dico_bigram, dico_trigram, dico_
 			
 			# NOMBRE MOTS.
 			nb_mot_f5 += 1
+
 			
 		if nb_mot_f5 == 0:
 			nb_mot_f5 = 1
@@ -687,7 +688,6 @@ def MUD(globalMeasure, localMeasure, bool_f_selection = 1):
 		
 	sentences = build_sentences(file_in)
 	features, labels_training = build_features(sentences, 1, dico_lemm, dico_bigram, dico_trigram, dico_pattern, bioscope, globalMeasure, localMeasure, bool_f_selection)
-
 	# Features selection.
 	def selection_features_boolean(features, choose):
 		f_tot = []
@@ -778,10 +778,11 @@ def MUD(globalMeasure, localMeasure, bool_f_selection = 1):
 		formatage_sentences.formater_phrase(path_file)
 		file_in = open("Data/Inputs/sentences.txt", "r",encoding="utf-8").readlines()
 	
-	# PREDICTION.		
+	# PREDICTION.	
+	# change deuxieme 0 en bioscope si on veut sfu	
 	sentences = build_sentences(file_in)
-	features, labels = build_features(sentences, 0, dico_lemm, dico_bigram, dico_trigram, dico_pattern, bioscope, globalMeasure, localMeasure, bool_f_selection)
-
+	features, labels = build_features(sentences, 0, dico_lemm, dico_bigram, dico_trigram, dico_pattern, 0, globalMeasure, localMeasure, bool_f_selection)
+	print(len(features[0]))
 	# Features selection.
 	if bool_f_selection == 1:
 		features = selection_features_boolean(features, boolean)
@@ -812,12 +813,12 @@ def MUD(globalMeasure, localMeasure, bool_f_selection = 1):
 			if predictions[i] == 1:
 				f.write(str(i)+" "+print_sentence(sentences[i])+"\n")
 
-	with open("Data/Results/certainty_sentences.txt", "w", encoding="utf-8") as f:
+	"""with open("Data/Results/certainty_sentences.txt", "w", encoding="utf-8") as f:
 		
 		#out = open("Data/Results/uncertainty_sentences.txt", , "w")
 		for i in range(len(predictions)):
 			if predictions[i] != 1:
-				f.write(str(i)+" "+print_sentence(sentences[i])+"\n")
+				f.write(str(i)+" "+print_sentence(sentences[i])+"\n")"""
 	
 	# Evaluation.
 	if bioscope != 3:

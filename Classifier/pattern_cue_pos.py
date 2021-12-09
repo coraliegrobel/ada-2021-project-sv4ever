@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 def proba_lemm_pos(name_file):
-	file_in = open(name_file, "r").readlines()
+	file_in = open(name_file, "r",encoding = "utf8").readlines()
 
 	# Conversion to sentences
 	sentences = []
@@ -274,7 +274,7 @@ def proba_lemm_pos(name_file):
 	"""
 
 	def write_file(dic_all, dic_use, dic_su, name_file):
-		file_out = open(name_file, "w")
+		file_out = open(name_file, "w",encoding = "utf8")
 
 		for key in dic_all.keys():
 			if key in dic_use:

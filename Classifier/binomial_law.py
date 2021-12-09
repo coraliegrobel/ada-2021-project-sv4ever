@@ -153,9 +153,9 @@ def read_file_6col(file_in):
 	return lemm
 
 def write_features(name_file_in, name_file_out, lemm_file, pu, pu_su, coef_binomial_calculs, factorial_calculs, nb_mot_global):
-	file_in = open(name_file_in, "r").readlines()
+	file_in = open(name_file_in, "r",encoding = "utf8").readlines()
 	lignes = read_file_6col(file_in)
-	file_out = open(name_file_out, "w")
+	file_out = open(name_file_out, "w",encoding = "utf8")
 	# lemme - p(w) - bl - p(w)su - blsu - k - ksu - n
 	for cel in lignes:
 		# cel[2] = p(w) for cue.
@@ -210,7 +210,7 @@ def build_stat_binom(corpus):
 	elif corpus == "sfu":
 		name_file = "Data/SFU/SFU_train_annot.txt"
 
-	file_in = open(name_file, "r").readlines()
+	file_in = open(name_file, "r",encoding = "utf8").readlines()
 
 	# We build sentences.
 	interm = []
