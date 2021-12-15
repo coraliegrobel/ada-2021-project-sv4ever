@@ -1,11 +1,13 @@
 # ADA - Project Milestone 2: 
 # *Analysis of speech behaviours between genders*
 
+
 ## Abstract 
 
 It is common knowledge that women’ speech contains more uncertainties (e.g., “We think this may be correct”) compared to men (e.g., “I know it is correct”). As a result, this project aims at comparing speech behaviours related to uncertainty between genders. For our data, we use citations from _Quotebank_, an open corpus of more than 1 million quotations from 2015 to 2020, as well as the open-source information from wikidata to have access to the speakers' information. The classification of the quotes is done using an uncertainty detection classifier, based on the statistical analysis of multiple lexical and syntactic features. Specifically, we analyze differences in communicative acts in relation to gender within and between professional areas. Furthermore, we emphasise the roles of nationality, culture/tradition, and education in determining those differences. Finally, we also observe whether there is a possible change over time between 2015 and 2020.
 
-Our results are narrated as a data story on the website assiaoua.github.io/blog/
+Our results are narrated as a data story on the website https://assiaoua.github.io/blog/.
+
 
 ## Research questions 
 
@@ -19,7 +21,8 @@ To answer this question, we'll go through the following points:
 
 3. Has there been a possible change over time (from 2015 to 2020)?
 
-## Proposed additional datasets and tools
+
+## Additional datasets and tools
 To complement the _Quotebank_ dataset, we use the open-source stored data on Wikidata, as well as a classifier.
 
 #### Wikidata
@@ -69,7 +72,8 @@ Statistical analysis is performed using OLS (Ordinary Least Squares), a mathemat
 
 We concluded on our observations and proposed further extensions on the project.
 
-## Proposed timeline 
+
+## Timeline 
 
 #### Milestone 1
 
