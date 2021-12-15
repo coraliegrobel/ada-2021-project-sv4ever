@@ -49,7 +49,7 @@ In order to do that, we had to merge _Quotebank_ and _Wikidata_. We merged on th
 
 To be able to avoid the bias of different backgrounds between males and females, we sub-divided our data into 4 professional fields: artists, scientists, economists, and politicians. To achieve the separation, we searched for the speaker’s occupation of each quote with the help of _Wikidata_, then hand-picked fields' professions and returned them in separate pickle files for each field.
 
-Another dataframe with no condition on profession, containing background information on the speakers was created, then also saved as pickle file.
+Another dataframe with no condition on profession, containing background information on the speakers was created, then also saved as a pickle file.
 
 3. #### Classification of the quotes
 
