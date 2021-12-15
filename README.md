@@ -25,7 +25,7 @@ To answer this question, we'll go through the following points:
 To complement the _Quotebank_ dataset, we use the open-source stored data on Wikidata, as well as a classifier.
 
 #### Wikidata
-It is an open-source dataset (https://www.wikidata.org/wiki/Wikidata:Main_Page).
+It is an open-source dataset (https://www.wikidata.org/wiki/Wikidata:Main_Page). Wikidata is used to retrieve information on the speakers.
 
 #### Uncertainty Detection Classifier
 To classify the quotes according to the uncertain lexical and syntactic features, we use the public uncertainty detection classifier from the paper "P. A. Jean, S. Harispe, S. Ranwez, P. Bellot, and J. Montmain, “Uncertainty detection in natural language: A probabilistic model” ACM Int. Conf. Proceeding Ser., vol. 13-15-June, no. June, 2016, doi: 10.1145/2912845.2912873". It is available for download at: https://github.c-om/pajean/uncertaintyDetection. As this was created on python2, we had to adapt it to run on python3.
