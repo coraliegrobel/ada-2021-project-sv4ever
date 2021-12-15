@@ -59,13 +59,13 @@ To be able to use the classifier, we first needed to create text files with only
 
 4. #### Results
 
-To start, as we have unbalanced data (most speakers are males), gender distributions are displayed for each condition.
+To start, as we have unbalanced data (most speakers are males), gender distributions are displayed for each condition. As our speakers are mostly males, for the following analysis, we had to normalize our uncertain speakers by the total number of speakers of each gender.
 
-We started by analysing the gender's distribution per each professional field (artists, scientists, economists, and politicians). As our speakers are mostly males, we had to normalize our uncertain speakers by the total number of speakers of each gender.
+The first analysis consisted in looking at the gender distribution of uncertain speakers in each professional field (artists, scientists, economists, and politicians). 
  
-To extend our research on the question of gender speech uncertainty, we investigated how do culture and education shape the way men and women speak. We based this study on the `nationality`, `ethnic_group`, `religion` and `academic_degree` columns of the speaker. This allows each time to remove the bias of the cultural, educational and environmental influence and to compare the gender speech.
+To extend our research on the question of gender speech uncertainty, we then investigated how do culture and education shape the way men and women speak. We based this study on the `nationality`, `ethnic_group`, `religion` and `academic_degree` columns of the speaker. This allows each time to remove the bias of the cultural, educational and environmental influence and to compare the gender speech.
 
-Finally, we investigated a possible change from 2015 to 2020, for each professional field.
+Finally, we investigated a possible change from 2015 to 2020, for each professional field, and for the more general data frame.
 
 5. #### Statistical-analysis
 
@@ -74,7 +74,6 @@ Statistical analysis is performed using OLS (Ordinary Least Squares), a mathemat
 6. #### Interpretation of results & Conclusion
 
 We concluded on our observations and proposed further extensions on the project.
-
 
 ## Timeline 
 
