@@ -96,7 +96,7 @@ Statistical analysis is performed using Ordinary Least Squares to evaluate the r
 
 ## Organization with the team
 
-All the members of the team worked on all project steps. Still, these are the main steps that each team member worked on:
+All the members of the team worked on all project steps. Still, these are the main sections that each team member worked on:
 
 - Clement Chaffard: 1., 5.
 - Coralie Grobel: 1., 2., 3., 5.
