@@ -99,7 +99,7 @@ Statistical analysis is performed using Ordinary Least Squares to evaluate the r
 All the members of the team worked on all project steps. Still, these are the main sections that each team member worked on:
 
 - Clement Chaffard: 1., 5.
-- Coralie Grobel: 1., 2., 3., 5.
+- Coralie Grobel: 1., 2., 3., 4.
 - Fannie Kerff: 3., 4., 6., READ_ME
 - Assia Ouanaya: 2., 4., Website
 
