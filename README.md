@@ -41,7 +41,9 @@ We started by cleaning the data by removing rows containing missing values on ma
   
 Then, we did some exploratory data analysis, at first on the distribution of genders and then on the language of the quotes. We observed a vast distribution of 31 genders. Still, to simplify our study, we only kept the "female" and "male" genders, the others representing less than 0.03% of the data. Concerning the language of the quotes, we found that some quotes are not in English. Only English quotes were kept.
 
-2. #### Creation of our sub data frames (one for all professional fields and one containing speakers' background information)
+2. #### Creation of our sub data frames
+
+We now created two data frames: one for all professional fields and one containing speakers' background information.
 
 In order to do that, we had to merge _Quotebank_ and _Wikidata_. We merged on the ‘label’ for _Wikidata_ and ‘speaker’ in _Quotebank_. Since speakers can have the same name, we had the condition that the id of the speaker, which is unique, should be the first one in the potential speaker for the quotes (‘Qids’). 
 
