@@ -25,7 +25,7 @@ To answer this question, we'll go through the following points:
 To complement the _Quotebank_ dataset, we use the open-source stored data on Wikidata, as well as a classifier.
 
 #### Wikidata
-It is an open-source dataset (https://www.wikidata.org/wiki/Wikidata:Main_Page). Wikidata is used to retrieve information on the speakers.
+It is an open-source dataset (https://www.wikidata.org/wiki/Wikidata:Main_Page). _Wikidata_ is used to retrieve information on the speakers.
 
 #### Uncertainty Detection Classifier
 To classify the quotes according to the uncertain lexical and syntactic features, we use the public uncertainty detection classifier from the paper "P. A. Jean, S. Harispe, S. Ranwez, P. Bellot, and J. Montmain, “Uncertainty detection in natural language: A probabilistic model” ACM Int. Conf. Proceeding Ser., vol. 13-15-June, no. June, 2016, doi: 10.1145/2912845.2912873". It is available for download at: https://github.c-om/pajean/uncertaintyDetection. As this was created on python2, we had to adapt it to run on python3.
@@ -45,7 +45,7 @@ Then, we did some exploratory data analysis, at first on the distribution of gen
 
 We now created two data frames: one for all professional fields and one containing speakers' background information.
 
-In order to do that, we had to merge _Quotebank_ and _Wikidata_. We merged on the `label` for _Wikidata_ and `speaker` in _Quotebank_. As several `label` are often selected (speakers having the same name), we chose the speaker (`label`) having his/her `id` (Wikidata) equal to the first speaker in `qids` (`qids`[0]).
+In order to do that, we had to merge _Quotebank_ and _Wikidata_. We merged on the `label` for _Wikidata_ and `speaker` in _Quotebank_. As several `label` are often selected (speakers having the same name), we chose the speaker (`label`) having his/her `id` (in _Wikidata_) equal to the first speaker in `qids` (`qids`[0] in _Quotebank_).
 
 To be able to avoid the bias of different backgrounds between males and females, we sub-divided our data into 4 professional fields: artists, scientists, economists, and politicians. To achieve the separation, we searched for the speaker’s occupation of each quote with the help of _Wikidata_, then hand-picked fields' professions and returned them in separate pickle files for each field.
 
@@ -78,7 +78,7 @@ We concluded on our observations and proposed further extensions on the project.
 
 #### Milestone 1
 
-Each team member brainstormed about possible project ideas using the Quotebank dataset.
+Each team member brainstormed about possible project ideas using the _Quotebank_ dataset.
 
 #### Milestone 2
 
