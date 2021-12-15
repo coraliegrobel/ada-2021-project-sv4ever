@@ -1,4 +1,3 @@
-# ADA - Project Milestone 2: 
 # *Analysis of speech behaviours between genders*
 
 
