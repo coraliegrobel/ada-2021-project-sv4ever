@@ -37,9 +37,9 @@ The data from _Wikidata_ and the adapted classifier can be found on this public 
 
 1. #### Pre-processing of the data
 
-We started by cleaning the data by removing rows containing missing values on mandatory features for our study, like the speaker's identity and gender. We also checked that there were no duplicate data (no duplicate quotes in _Quotebank_ and speaker id in _Wikidata_). Then, only the quotes where the speaker's probability was greater than 0.5 in _Quotebank_ were kept. Finally, non-English quotes were removed.
+We started by cleaning the data by removing rows containing missing values on mandatory features for our study, like the speaker's identity and gender. We also checked that there were no duplicate data (no duplicate quotes in _Quotebank_ and speaker id in _Wikidata_). Then, only the quotes where the speaker's probability was greater than 0.5 in _Quotebank_ were kept.
   
-Then, we did some exploratory data analysis, at first on the distribution of genders and then on the language of the quotes. We observed a vast distribution of 31 genders. Still, to simplify our study, we only kept the "female" and "male" genders, the others representing less than 0.03% of the data. Concerning the language of the quotes, we found that some quotes are not in English. We will further investigate how to only keep the one in English in Milestone 3.
+Then, we did some exploratory data analysis, at first on the distribution of genders and then on the language of the quotes. We observed a vast distribution of 31 genders. Still, to simplify our study, we only kept the "female" and "male" genders, the others representing less than 0.03% of the data. Concerning the language of the quotes, we found that some quotes are not in English. Only English quotes were kept.
 
 2. #### Creation of our sub data frames (one for all professional fields and one containing speakers' background information)
 
