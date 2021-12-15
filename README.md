@@ -7,6 +7,8 @@ It is common knowledge that womenâ€™ speech contains more uncertainties (e.g., â
 
 Our results can be visualised, narrated as a data story, on the following website: https://assiaoua.github.io/blog/.
 
+In order to run this project, one needs to download the directories and files from the following drive: https://drive.google.com/drive/folders/1UgvnLUFhs14NDcZYH6NuZx2f_YC5i06N?usp=sharing.
+
 
 ## Research questions 
 
@@ -53,7 +55,7 @@ Another dataframe with no condition on profession, containing background informa
 
 3. #### Classification of the quotes
 
-To be able to use the classifier, we first needed to create text files with only the quotes and their index. Then, we ran the classifier on these files and it returned the uncertainty quotes for each file. More instructions are in the notebook to know how to run it.
+To be able to use the classifier, we first needed to create text files with only the quotes and their index. Then, we ran the classifier on these files and it returned the uncertainty quotes for each file. Instructions on how to run the classifier are present in the notebook.
 
 4. #### Results
 
