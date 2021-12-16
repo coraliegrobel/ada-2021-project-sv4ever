@@ -3,16 +3,16 @@
 
 ## Abstract 
 
-It is common knowledge that women’ speech contains more uncertainties (e.g., “We think this may be correct”) compared to men (e.g., “I know it is correct”). As a result, this project aims at comparing speech behaviours related to uncertainty between genders. For our data, we use _Quotebank_, an open corpus of more than 1 million quotations from 2015 to 2020, as well as the open-source information from wikidata to have access to the speakers' information. The classification of the quotes is done using an uncertainty detection classifier, based on the statistical analysis of multiple lexical and syntactic features. Specifically, we analyze differences in communicative acts in relation to gender within and between professional areas. Furthermore, we emphasise the roles of nationality, culture/tradition, and education in determining those differences. Finally, we also observe whether there is a possible change over time between 2015 and 2020.
+It is common knowledge that women’ speech contains more **uncertainties** (e.g., “We think this may be correct”) compared to men (e.g., “I know it is correct”). As a result, this project aims at comparing speech behaviours related to uncertainty between genders. For our data, we use _Quotebank_, an open corpus of more than 1 million quotations from 2015 to 2020, as well as the open-source information from wikidata to have access to the speakers' information. The classification of the quotes is done using an uncertainty detection **classifier**, based on the statistical analysis of multiple lexical and syntactic features. Specifically, we analyze differences in communicative acts in relation to gender within and between professional areas. Furthermore, we emphasise the roles of nationality, culture/tradition, and education in determining those differences. Finally, we also observe whether there is a possible change over time between 2015 and 2020.
 
-Our results can be visualised, narrated as a data story, on the following website: https://assiaoua.github.io/blog/.
+Our results can be visualised, narrated as a **data story**, on the following website: [click here!](https://assiaoua.github.io/blog/)
 
-In order to run this project, one needs to download the directories and files from the following drive: https://drive.google.com/drive/folders/1UgvnLUFhs14NDcZYH6NuZx2f_YC5i06N?usp=sharing.
+In order to run this project, one needs to download the directories and files from the following [drive](https://drive.google.com/drive/folders/1UgvnLUFhs14NDcZYH6NuZx2f_YC5i06N?usp=sharing).
 
 
 ## Research questions 
 
-We are interested in using this dataset to answer the following question: Do speech behaviours related to confidence and uncertainty vary between men and women?
+We are interested in using this dataset to answer the following question: **Do speech behaviours related to confidence and uncertainty vary between men and women?**
 
 To answer this question, we'll go through the following points:
 
@@ -27,12 +27,12 @@ To answer this question, we'll go through the following points:
 To complement the _Quotebank_ dataset, we use the open-source stored data on Wikidata, as well as a classifier.
 
 #### Wikidata
-It is an open-source dataset (https://www.wikidata.org/wiki/Wikidata:Main_Page). _Wikidata_ is used to retrieve information on the speakers.
+It is an open-source [dataset](https://www.wikidata.org/wiki/Wikidata:Main_Page). _Wikidata_ is used to retrieve information on the speakers.
 
 #### Uncertainty Detection Classifier
-To classify the quotes according to the uncertain lexical and syntactic features, we use the public uncertainty detection classifier from the paper "P. A. Jean, S. Harispe, S. Ranwez, P. Bellot, and J. Montmain, “Uncertainty detection in natural language: A probabilistic model” ACM Int. Conf. Proceeding Ser., vol. 13-15-June, no. June, 2016, doi: 10.1145/2912845.2912873". It is available for download at: https://github.c-om/pajean/uncertaintyDetection. As this was created on python2, we had to adapt it to run on python3.
+To classify the quotes according to the uncertain lexical and syntactic features, we use the public uncertainty detection classifier from the paper "P. A. Jean, S. Harispe, S. Ranwez, P. Bellot, and J. Montmain, “Uncertainty detection in natural language: A probabilistic model” ACM Int. Conf. Proceeding Ser., vol. 13-15-June, no. June, 2016, doi: 10.1145/2912845.2912873". It is available for reading [here](https://github.c-om/pajean/uncertaintyDetection). As this was created on python2, we had to adapt it to run on python3.
 
-The data from _Wikidata_ and the adapted classifier can be found on this public drive: https://drive.google.com/drive/folders/1UgvnLUFhs14NDcZYH6NuZx2f_YC5i06N. More instructions are provided within the notebook.
+The data from _Wikidata_ and the adapted classifier can be found on this public [drive](https://drive.google.com/drive/folders/1UgvnLUFhs14NDcZYH6NuZx2f_YC5i06N). More instructions are provided within the notebook.
 
 
 ## Methods
