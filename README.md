@@ -41,7 +41,7 @@ The data from _Wikidata_ and the adapted classifier can be found on this public 
 
 We started by cleaning the data by removing rows containing missing values on mandatory features for our study, like the speaker's identity and gender. We also checked that there were no duplicate data (no duplicate quotes in _Quotebank_ and speaker id in _Wikidata_). Then, only the quotes where the speaker's probability was greater than 0.5 in _Quotebank_ were kept.
   
-Then, we did some exploratory data analysis, at first on the distribution of genders and then on the languages of the quotes. We observed a vast distribution of 31 genders. Still, to simplify our study, we only kept the `female` and `male` genders, the others representing less than 0.1% of the data. Concerning the languages of the quotes, we found that some quotes were not in English. Only English quotes were kept.
+Then, we did some exploratory data analysis, at first on the distribution of genders and then on the languages of the quotes. We observed a vast distribution of 32 genders. Still, to simplify our study, we only kept the `female` and `male` genders, the others representing less than 0.03% of the data. Concerning the languages of the quotes, we found that some quotes were not in English. Only English quotes were kept.
 
 2. #### Creation of our sub data frames
 
@@ -67,7 +67,7 @@ Finally, we investigated a possible change from 2015 to 2020, for each professio
 
 5. #### Statistical-analysis
 
-Statistical analysis is performed using OLS (Ordinary Least Squares), a mathematical regression method.
+Statistical analysis is performed using OLS (Ordinary Least Squares), a mathematical regression method. We decided to use OLS regression as it provides simple relationship modelling between the dependent and independent variables and because they are easily interpretable.
 
 6. #### Interpretation of results & Conclusion
 
