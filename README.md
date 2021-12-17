@@ -67,7 +67,7 @@ Finally, we investigated a possible change from 2015 to 2020, for each professio
 
 5. #### Statistical-analysis
 
-Statistical analysis is performed using OLS (Ordinary Least Squares), a mathematical regression method.
+Statistical analysis is performed using OLS (Ordinary Least Squares), a mathematical regression method. We decided to use OLS regression as it provides simple relationship modelling between the dependent and independent variables and because they are easily interpretable.
 
 6. #### Interpretation of results & Conclusion
 
