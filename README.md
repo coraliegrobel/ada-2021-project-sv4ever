@@ -7,7 +7,6 @@ It is common knowledge that women’ speech contains more **uncertainties** (e.g
 
 Our results can be visualised, narrated as a **data story**, on the following website: [click here!](https://assiaoua.github.io/blog/)
 
-![Website view](/Images/website_screen.png)
 ![Website view](/Images/website_screen_white.png)
 
 
