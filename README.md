@@ -57,7 +57,7 @@ To be able to use the classifier, we first needed to create text files with only
 
 4. #### Results
 
-To start, as we have unbalanced data (most speakers are males), gender distributions are displayed for each condition. As our speakers are mostly males, for the following analysis, we had to normalize our uncertain speakers by the total number of speakers of each gender.
+To start, as we have unbalanced data (most speakers are males), gender distributions are displayed for each condition. For the following analysis, we therefore had to normalize our uncertain speakers by the total number of speakers of each gender.
 
 The first analysis consisted in looking at the gender distribution of uncertain speakers in each professional field (artists, scientists, economists, and politicians). 
  
