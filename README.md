@@ -61,7 +61,7 @@ To start, as we have unbalanced data (most speakers are males), gender distribut
 
 The first analysis consisted in looking at the gender distribution of uncertain speakers in each professional field (artists, scientists, economists, and politicians). 
  
-To extend our research on the question of gender speech uncertainty, we then investigated how do culture and education shape the way men and women speak. We based this study on the `nationality`, `religion` and `academic_degree` columns of the speaker. This allows each time to remove the bias of the cultural, educational and environmental influence and to compare the gender speech.
+To extend our research on the question of gender speech uncertainty, we then investigated how do culture and education shape the way men and women speak. We based this study on the `nationality`, `religion` and `academic_degree` columns of the speaker. This allows each time to remove the bias of the environmental, cultural,  and  educational influence and to compare the gender speech.
 
 Finally, we investigated a possible change from 2015 to 2020, for each professional field, and for the more general data frame.
 
