@@ -55,7 +55,7 @@ Another dataframe with no condition on profession, containing background informa
 
 3. #### Classification of the quotes
 
-To be able to use the classifier, we first needed to create text files with only the quotes and their index. Then, we ran the classifier on these files and it returned the uncertainty quotes for each file. Instructions on how to run the classifier are present in the notebook.
+To be able to use the classifier, we first needed to create text files with only the quotes and their indices. Then, we ran the classifier on these files and it returned the uncertainty quotes for each file. Instructions on how to run the classifier are present in the notebook.
 
 4. #### Results
 
