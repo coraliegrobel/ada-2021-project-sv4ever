@@ -87,7 +87,7 @@ Still, only the 2015 and 2020 datasets were loaded at this point.
 
 #### Milestone 3
 
-In this last part of the project, the main change was to perform the analysis (4. **Results**) on the entire dataset (2015 to 2020). Additionally, the classifier was now based on 6 features. The analysis of the differences in communicative acts in relation to gender within and between professional areas is now performed using a much greater dataset. The analysis of the speakers' environments' influence is also performed on this greater dataset. To finish, the possible change over time is analysed using the 6 yearly datasets (from 2015 to 2020).
+In this last part of the project, the main change was to perform the analysis (4. **Results**) on the entire dataset (2015 to 2020). Additionally, the classifier was now based on 6 features. The analyses of (1) the differences in communicative acts in relation to gender within and between professional areas, (2) the speakers' environments' influence on speech behaviour, and (3) the possible change over time, are now performed using a much greater dataset (the 6 yearly datasets, from 2015 to 2020).
 
 Statistical analysis is performed using Ordinary Least Squares to evaluate the reliability of our findings. A conclusion and possible further extensions on the project are then stated.
 
