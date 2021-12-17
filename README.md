@@ -83,7 +83,7 @@ Each team member brainstormed about possible project ideas using the _Quotebank_
 
 The project goal and research questions were chosen. The data was therefore cleaned accordingly to our research: we removed (1) speakers with missing identity and/or gender, (2) duplicate speakers, and (3) unlikely speakers. To answer our first research question, speakers are separated across professional fields (politicians, artists, scientists, and economists). Quotes are then classified as certain or uncertain using the classifier using 2 features. Finally, results are displayed in plots, allowing us to visualise the gender distribution of uncertain speakers across (1) professional fields, (2) speakers' background, and (3) 2015 and 2020.
 
-Still, only the 2015 and 2020 datasets are loaded at this point.
+Still, only the 2015 and 2020 datasets were loaded at this point.
 
 #### Milestone 3
 
