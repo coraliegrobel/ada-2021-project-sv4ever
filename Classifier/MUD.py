@@ -782,7 +782,7 @@ def MUD(globalMeasure, localMeasure, bool_f_selection = 1):
 	# change deuxieme 0 en bioscope si on veut sfu	
 	sentences = build_sentences(file_in)
 	features, labels = build_features(sentences, 0, dico_lemm, dico_bigram, dico_trigram, dico_pattern, 0, globalMeasure, localMeasure, bool_f_selection)
-	print(len(features[0]))
+	print("almost done")
 	# Features selection.
 	if bool_f_selection == 1:
 		features = selection_features_boolean(features, boolean)
@@ -805,7 +805,6 @@ def MUD(globalMeasure, localMeasure, bool_f_selection = 1):
 	
 	# Uncertainty sentences.
 	print ("Total of sentences "+str(len(sentences)))
-	#print len(predictions)
 	with open("Data/Results/uncertainty_sentences.txt", "w", encoding="utf-8") as f:
 		
 		#out = open("Data/Results/uncertainty_sentences.txt", , "w")
