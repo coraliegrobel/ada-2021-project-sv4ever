@@ -87,9 +87,9 @@ Still, only the 2015 and 2020 datasets were loaded at this point.
 
 #### Milestone 3
 
-In this last part of the project, the main change was to perform the analysis (4. **Results**) on the entire dataset (2015 to 2020). The analysis of the differences in communicative acts in relation to gender within and between professional areas is now performed using a much greater dataset. The analysis of the speakers' environments' influence is also performed on this greater dataset. To finish, the possible change over time is analysed using the 6 yearly datasets (from 2015 to 2020).
+In this last part of the project, the main change was to perform the analysis (4. **Results**) on the entire dataset (2015 to 2020). The analysis of the differences in communicative acts in relation to gender within and between professional areas is now performed using a much greater dataset. The analysis of the speakers' environments' influence is also performed on this greater dataset. To finish, the possible change over time is analysed using the 6 yearly datasets (from 2015 to 2020). The classifier was now based on 6 features.
 
-Statistical analysis is performed using Ordinary Least Squares to evaluate the reliability of our findings.A conclusion and possible further extensions on the project are then stated.
+Statistical analysis is performed using Ordinary Least Squares to evaluate the reliability of our findings. A conclusion and possible further extensions on the project are then stated.
 
 
 ## Organization with the team
@@ -101,4 +101,4 @@ All the members of the team worked on all project steps. Still, these are the ma
 - Fannie Kerff: 3., 4., 6., READ_ME
 - Assia Ouanaya: 2., 4., Website
 
-The numbers refer to the "Method" steps.
+The numbers refer to the "**Methods**" steps.
