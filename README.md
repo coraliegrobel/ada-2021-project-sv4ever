@@ -18,7 +18,7 @@ To answer this question, we'll go through the following points:
 
 - To what extent can we observe the differences in communicative acts in relation to gender within a professional area? Are there noticeable differences between those professional areas?
 
-- What are the roles of nationality, culture/tradition (religion), and education (whether the speaker obtained an academic degree) in determining those differences in speech between men and women? How are the lines drawn between the language we use and the environment around us?
+- What are the roles of nationality, culture/tradition (religion), and education (whether the speaker obtained a specific academic degree) in determining those differences in speech between men and women? How are the lines drawn between the language we use and the environment around us?
 
 - Has there been a possible change over time (from 2015 to 2020)?
 
